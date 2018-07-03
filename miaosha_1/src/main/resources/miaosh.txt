@@ -1,0 +1,5 @@
+#创建数据库
+create database miaosha;
+USE miaosha;
+
+#创建表

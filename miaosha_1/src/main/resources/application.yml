@@ -1,0 +1,27 @@
+#thymeleaf
+spring:
+  thymeleaf:
+    cache: false
+    content-type: text/html
+    enabled: true
+    encoding: UTF-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
+#druid
+  datasource:
+    url: jdbc:mysql://117.48.215.192:3306/miaosha?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#mybatis
+mybatis:
+  type-aliases-package: com.xujing.miaosha.entity
+  configuration:
+    map-underscore-to-camel-case: true  #下划线转化为驼罗峰
+    default-fetch-size: 100
+    default-statement-timeout: 3000
+  mapper-locations: com.xujing.miaosha.dao
+
