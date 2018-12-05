@@ -1,0 +1,107 @@
+#应用基本信息
+server:
+  port: 8081
+
+#thymeleaf
+spring:
+  thymeleaf:
+    cache: false
+    content-type: text/html
+    enabled: true
+    encoding: UTF-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
+#druid
+  datasource:
+    #url: jdbc:mysql://117.48.215.192:3306/miaosha?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    url: jdbc:mysql://117.48.215.192:3306/miaosha?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: serviceone2018
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    #通用配置  初始化大小，最小，最大
+    initialSize: 100   #初始连接数
+    minIdle: 500
+    maxActive: 1000 #最大连接数
+    # 配置获取连接等待超时的时间
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000 # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    minEvictableIdleTimeMillis: 300000 # <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+    # 用来检测有效sql
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+    removeAbandoned: true
+    removeAbandonedTimeout: 1800 # <!-- 1800秒，也就是30分钟 -->
+    filters: stat
+  #redis
+  redis:
+    host: 117.48.215.192
+    port: 6385
+    password: 123456
+    timeout: 3 # 连接超时时间（毫秒）
+    pool:
+      max-idle: 10
+      max-wait: 3
+      max-active: 10
+      min-idle: 0
+  #static
+  resources:
+    add-mappings: true
+    cache-period: 3600 #资源缓存时间，单位秒
+    static-locations: classpath:/static/
+    chain:
+      cache: true  #启用缓存
+      enabled: true
+      gzipped: true # 开启gzip压缩
+      html-application-cache: true
+  #rabbitMQ
+  rabbitmq:
+    host: 117.48.215.192
+    port: 5672
+    username : guest
+    password : guest
+    virtual-host : / #连接客户端的虚拟
+    listener:
+      simple:
+        concurrency: 10   #消费者数量
+        max-concurrency: 10
+        prefetch: 1 #每次连接取几个，如果队列中堆积，多加几个
+        auto-startup: true  #默认消费者自动启动
+        default-requeue-rejected: true  #消费者消费失败，重新加入到队列中
+    template:
+        retry: #重置
+          enabled: true
+          initial-interval: 1000
+          max-attempts: 3
+          max-interval: 10000
+          multiplier: 1.0
+  #mvc:
+    #view:
+      #prefix: /WEB-INF/jsp
+      #suffix: .jsp
+
+#mybatis
+mybatis:
+  type-aliases-package: com.xujing.miaosha.entity
+  configuration:
+    map-underscore-to-camel-case: true  #下划线转化为驼罗峰
+    default-fetch-size: 100
+    default-statement-timeout: 3000
+  mapper-locations: classpath:com.xujing.miaosha.dao/*.xml
+
+#自定义参数
+redis:
+  host : 117.48.215.192
+  port: 6385
+  timeout: 10
+  password: 123456
+  poolMaxTotal: 10
+  poolMaxIdle: 500
+  poolMaxWait: 500
+
+
