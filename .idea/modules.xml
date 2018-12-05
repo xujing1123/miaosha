@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/miaosha.iml" filepath="$PROJECT_DIR$/miaosha.iml" />
       <module fileurl="file://$PROJECT_DIR$/miaosha_1/miaosha_1.iml" filepath="$PROJECT_DIR$/miaosha_1/miaosha_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/miaosha_2/miaosha_2.iml" filepath="$PROJECT_DIR$/miaosha_2/miaosha_2.iml" />
     </modules>
   </component>
 </project>

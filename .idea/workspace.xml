@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faaf3966-1ed2-4146-ac13-7b5bd8372507" name="Default" comment="" />
+    <list default="true" id="faaf3966-1ed2-4146-ac13-7b5bd8372507" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Data_JPA_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/interceptor/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/interceptor/UserInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/mail/MailContentTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/mail/MailEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/mail/MailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/mail/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/rabbitmq/MQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/rabbitmq/MQReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/rabbitmq/MQSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/rabbitmq/MiaoShaMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/redis/GoodsKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/redis/MiaoshaKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/redis/OrderKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/redis/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/test/JunitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/test/TestMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/vo/GoodsDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/vo/OrderDetailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/resources/mail.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/resources/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/resources/static/goods_detail.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miaosha_1/src/main/resources/static/order_detail.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/Miaosha1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/Miaosha1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/dao/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/result/CodeMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/result/CodeMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/resources/miaosh.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_1/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/resources/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/java/com/xujing/miaosha_2/Miaosha2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/miaosha_1/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miaosha_2/src/test/java/com/xujing/miaosha_2/Miaosha2ApplicationTests.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/miaosha_1/target/" />
     <ignored path="$PROJECT_DIR$/miaosha_2/target/" />
@@ -15,58 +63,44 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/miaosha$Miaosha1Application.ic" NAME="Miaosha1Application Coverage Results" MODIFIED="1537173469353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.xujing.miaosha.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="miaosha" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DemoController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/DemoController.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MiaoshaUserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/service/MiaoshaUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="229">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CodeMsg.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/result/CodeMsg.java">
+      <file leaf-file-name="RedisService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/redis/RedisService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_1/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/dao/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="miaosh.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/resources/miaosh.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="-2530">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -77,24 +111,112 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>miaosha.queue</find>
+      <find>MIAOSHA_QUEUE</find>
+      <find>QUEUE</find>
+      <find>商品已秒杀完毕</find>
+      <find>商品</find>
+      <find>商品已经秒杀完毕</find>
+      <find>MIAO_SHA_OVER</find>
+      <find>doMiaosha</find>
+      <find>order_detail.htm</find>
+      <find>getMiaoshaResult</find>
+      <find>PrintWriter</find>
+      <find>preHandle</find>
+      <find>ExceptionHandler</find>
+      <find>MyWebApplicationInitializer</find>
+      <find>ResponseEntity</find>
+      <find>registerWebSocketHandlers</find>
+      <find>@InitBinder</find>
+      <find />
+      <find>InitBinder</find>
+      <find>configureContentNegotiation</find>
+      <find>fast</find>
+      <find>mvc</find>
+      <find>UserInterceptor</find>
+      <find>请设置content</find>
+      <find>te</find>
+      <find>zh</find>
+      <find>fastjson</find>
+      <find>web</find>
+      <find>tomcat</find>
+      <find>ThresholdFilter</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\learn\miaosha\miaosha_1</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="Production" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/vo/GoodsDetailVO.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/UserController.java" />
         <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/Miaosha1Application.java" />
-        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/result/Result.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/templates/goods_list.html" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/static/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/static/js/common.js" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/config/UserArgumentResolver.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/service/MiaoshaUserService.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/static/order_detail.htm" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/vo/OrderDetailVo.java" />
         <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/result/CodeMsg.java" />
-        <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/thymeleaf/hello.html" />
-        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/DemoController.java" />
-        <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/templates/hello.html" />
-        <option value="$PROJECT_DIR$/miaosha_2/pom.xml" />
-        <option value="$PROJECT_DIR$/miaosha_1/pom.xml" />
-        <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/miaosh.txt" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/miaosh.sql" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/redis/OrderKey.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/interceptor/WebConfig.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/SampleController.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/redis/GoodsKey.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/rabbitmq/MiaoShaMessage.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/redis/MiaoshaKey.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/rabbitmq/MQSender.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/rabbitmq/MQReceiver.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/rabbitmq/MQConfig.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/redis/RedisService.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/test/JunitTest.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/entity/Goods.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/vo/GoodsVo.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/entity/MiaoshaGoods.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/service/MiaoshaService.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/MiaoshaController.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/static/goods_detail.htm" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/interceptor/LogInterceptor.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/interceptor/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/interceptor/UserInterceptor.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/mail/MailEntity.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/mail/MailContentTypeEnum.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/mail/PropertiesUtil.java" />
         <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/mail.properties" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/mail/MailSender.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/test/TestMail.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/pom.xml" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/miaosha_1/src/main/resources/logback.xml" />
       </list>
     </option>
   </component>
@@ -131,18 +253,18 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-364" />
-    <option name="y" value="8" />
+    <option name="x" value="43" />
+    <option name="y" value="100" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,7 +315,37 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="miaosha" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha_1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
@@ -205,22 +357,48 @@
             </path>
             <path>
               <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
-              <item name="miaosha_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miaosha" type="462c0819:PsiDirectoryNode" />
-              <item name="miaosha_2" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="logging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miaosha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="logging" type="462c0819:PsiDirectoryNode" />
+              <item name="logback" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -234,7 +412,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/work/businessPropertyManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -244,9 +422,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\learn\miaosha\miaosha_1\src\main\resources\templates" />
       <recent name="D:\learn\miaosha\miaosha_1\src\main\resources" />
-      <recent name="D:\learn\miaosha\miaosha_1" />
+      <recent name="D:\learn\miaosha\miaosha_1\src\main\java\com\xujing\miaosha\redis" />
+      <recent name="D:\learn\miaosha\miaosha_1\src\main\resources\static" />
+      <recent name="D:\learn\miaosha\miaosha_1\src\main\resources\static\bootstrap\css" />
+      <recent name="D:\learn\miaosha\miaosha_2\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xujing.miaosha.interceptor" />
+      <recent name="com.xujing.miaosha.redis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\learn\miaosha\miaosha_1\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,7 +448,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Miaosha1Application">
+  <component name="RunManager" selected="Application.Miaosha1Application">
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xujing.miaosha.util.MD5Util" />
+      <module name="miaosha_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xujing.miaosha.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xujing.miaosha.test.Main" />
+      <module name="miaosha_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xujing.miaosha.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Miaosha1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xujing.miaosha.Miaosha1Application" />
+      <module name="miaosha_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xujing.miaosha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="RedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xujing.miaosha.test.RedisTest" />
+      <module name="miaosha_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xujing.miaosha.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xujing.miaosha.test.TestMail" />
+      <module name="miaosha_1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xujing.miaosha.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -281,19 +523,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DemoController" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="miaosha_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xujing.miaosha.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xujing.miaosha.controller.DemoController" />
-    </configuration>
     <configuration name="Miaosha1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="miaosha_1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xujing.miaosha.Miaosha1Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
     </configuration>
     <configuration name="Miaosha2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="miaosha_2" />
@@ -442,13 +677,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.apache-tomcat-7.0.85" />
-      <item itemvalue="Spring Boot.Miaosha1Application" />
-      <item itemvalue="Spring Boot.Miaosha2Application" />
-      <item itemvalue="Spring Boot.DemoController" />
+      <item itemvalue="Application.RedisTest" />
+      <item itemvalue="Application.Miaosha1Application" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MD5Util" />
+      <item itemvalue="Application.TestMail" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DemoController" />
+        <item itemvalue="Application.Miaosha1Application" />
+        <item itemvalue="Application.TestMail" />
+        <item itemvalue="Application.MD5Util" />
+        <item itemvalue="Application.RedisTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -462,12 +703,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530361506455</updated>
-      <workItem from="1530361624764" duration="22062000" />
+      <workItem from="1530361624764" duration="46307000" />
+      <workItem from="1531470461626" duration="3387000" />
+      <workItem from="1531795705784" duration="5823000" />
+      <workItem from="1535116902503" duration="8351000" />
+      <workItem from="1535332997166" duration="4139000" />
+      <workItem from="1535507135837" duration="31959000" />
+      <workItem from="1535938720284" duration="73876000" />
+      <workItem from="1536539847766" duration="2250000" />
+      <workItem from="1536545955691" duration="21414000" />
+      <workItem from="1536885703589" duration="46154000" />
+      <workItem from="1537231026641" duration="61507000" />
+      <workItem from="1537836282926" duration="4241000" />
+      <workItem from="1537858764880" duration="53660000" />
+      <workItem from="1539048604376" duration="13610000" />
+      <workItem from="1539072973432" duration="11420000" />
+      <workItem from="1539221263146" duration="7168000" />
+      <workItem from="1539310533200" duration="2820000" />
+      <workItem from="1539315667688" duration="3463000" />
+      <workItem from="1540198797627" duration="30736000" />
+      <workItem from="1540369255110" duration="7098000" />
+      <workItem from="1542276290791" duration="1801000" />
+      <workItem from="1543908200967" duration="3491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22062000" />
+    <option name="totallyTimeSpent" value="444675000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,80 +741,108 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32991454" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.20694864" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50455236" side_tool="true" weight="0.53162396" />
+      <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.49848944" weight="0.24102564" />
+      <window_info anchor="right" id="Maven Projects" order="2" sideWeight="0.49861497" weight="0.18740515" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="1" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" weight="0.32991454" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.32991454" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32991454" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.41367522" />
-      <window_info anchor="bottom" id="Spring" order="2" weight="0.32991454" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32991454" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Database" order="4" weight="0.17905918" />
+      <window_info id="Structure" order="4" sideWeight="0.50085473" side_tool="true" weight="0.25417298" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.24962063" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49544764" weight="0.50940174" />
+      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49924472" weight="0.32820514" />
+      <window_info anchor="bottom" id="Messages" order="6" sideWeight="0.49924126" weight="0.32991454" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" sideWeight="0.49924472" weight="0.32820514" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49924472" weight="0.32991454" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49544764" visible="true" weight="0.082051285" />
+      <window_info anchor="bottom" id="Spring" order="2" sideWeight="0.49924472" weight="0.63076925" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49924472" weight="0.32820514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991453" visible="true" weight="0.28072837" />
+      <window_info anchor="right" id="Bean Validation" order="1" weight="0.32852808" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.32928678" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="11" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.033383913" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924126" weight="0.25811967" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.50138503" side_tool="true" weight="0.18740515" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32991454" />
+      <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.49848944" weight="0.24102564" />
       <window_info id="Designer" order="1" />
       <window_info anchor="right" id="Palette" order="7" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.41367522" />
-      <window_info anchor="bottom" id="Spring" order="2" weight="0.32991454" />
-      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49544764" visible="true" weight="0.17948718" />
+      <window_info anchor="bottom" id="Spring" order="2" sideWeight="0.49924472" weight="0.63076925" />
+      <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32991454" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.24962063" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.32928678" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49924472" weight="0.32820514" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.32991454" />
-      <window_info anchor="bottom" id="TODO" order="8" weight="0.32991454" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32991454" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50455236" side_tool="true" weight="0.53162396" />
+      <window_info anchor="bottom" id="Messages" order="6" sideWeight="0.49924126" weight="0.32991454" />
+      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49924472" weight="0.32820514" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.033383913" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" sideWeight="0.49924472" weight="0.32820514" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.20694864" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49924472" weight="0.32991454" />
+      <window_info anchor="right" id="Maven Projects" order="2" sideWeight="0.49861497" weight="0.18740515" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924126" weight="0.25811967" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991453" visible="true" weight="0.28072837" />
+      <window_info anchor="right" id="Database" order="4" weight="0.17905918" />
       <window_info anchor="bottom" id="Message" order="11" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Structure" order="4" sideWeight="0.50085473" side_tool="true" weight="0.25417298" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.50138503" side_tool="true" weight="0.18740515" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49544764" weight="0.50940174" />
+      <window_info anchor="right" id="Bean Validation" order="1" weight="0.32852808" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -561,156 +851,425 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/DemoController.java</url>
-          <line>35</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar!/org/springframework/core/io/support/SpringFactoriesLoader.class</url>
+          <line>73</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/RedisController.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/RedisController.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/service/MiaoshaUserService.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/rabbitmq/MQReceiver.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/rabbitmq/MQReceiver.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/service/MiaoshaService.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/service/MiaoshaService.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/config/UserArgumentResolver.java</url>
+          <line>27</line>
+          <properties field="userService" class="com.xujing.miaosha.config.UserArgumentResolver" />
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="110" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/resources/miaosh.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="242">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_1/src/test/java/com/xujing/miaosha/Miaosha1ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/result/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/Miaosha1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/1.5.14.RELEASE/spring-boot-starter-web-1.5.14.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396" />
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.5.14.RELEASE/spring-boot-starter-parent-1.5.14.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="56" column="46" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-thymeleaf/1.5.14.RELEASE/spring-boot-starter-thymeleaf-1.5.14.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/resources/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.5.9.RELEASE/spring-boot-starter-parent-1.5.9.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.0/mybatis-spring-boot-starter-1.3.0.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/entity/ddd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/DemoController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/http/converter/AbstractHttpMessageConverter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/result/CodeMsg.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/http/MediaType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="-383">
+          <caret line="38" column="97" lean-forward="true" selection-start-line="38" selection-start-column="97" selection-end-line="38" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/resources/miaosh.txt">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/HandlerInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/mail/MailEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-913">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/tomcat/jni/Local.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/test/JunitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/test/SimpleSerial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/dao/User.java">
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/test/TaskExecutorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/mail/MailContentTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/java8/jdk1.8.0_162/src.zip!/java/net/PasswordAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/javax.mail-api/1.6.0/javax.mail-api-1.6.0.jar!/javax/mail/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/javax.mail-api/1.6.0/javax.mail-api-1.6.0.jar!/javax/mail/PasswordAuthentication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/mail/PropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/java8/jdk1.8.0_162/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/resources/mail.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/mail/MailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/test/TestMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/resources/static/order_detail.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="30" />
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/miaosha_1/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="37" />
+        <state relative-caret-position="206">
+          <caret line="128" column="17" lean-forward="true" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="65" column="11" lean-forward="true" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-488">
+          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+          <folding>
+            <element signature="method#configureDefaultServletHandling#0;class#WebConfig#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/exception/GlobleException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/interceptor/LogInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/config/UserArgumentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/stereotype/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/stereotype/Component.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/context/annotation/ImportBeanDefinitionRegistrar.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/stereotype/Controller.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/interceptor/UserInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE.jar!/org/springframework/boot/SpringBootConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/annotation/Import.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfigurationImportSelector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE.jar!/org/springframework/boot/logging/logback/LogbackLoggingSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="111" column="17" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-44">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/Miaosha1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/constant/LoginConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/redis/RedisPoolFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/test/RedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/redis/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/service/MiaoshaUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miaosha_1/src/main/java/com/xujing/miaosha/redis/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2530">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -742,7 +1301,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (miaosha_1)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -782,6 +1341,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -801,7 +1361,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
